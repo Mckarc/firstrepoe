@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* min-height: 100vh; */
+}
+.watch{
+    background-color: rgb(51, 51, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.screen{
+    background-color: navajowhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 130px;
+}
+.display{
+    background-color: brown;
+    height: 90px;
+    max-width: fit-content;
+    padding: 0 5px 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    border-radius: 10px;
+}
+.left-h, .right-h{
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+}
